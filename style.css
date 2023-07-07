@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.me h2:hover {
+
+    color: lightseagreen;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+#element {
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+hr {
+    width: 100vw;
+
+    background-color: lightblue;
+}
+
+.card {
+    margin: 0 6px;
+    border: 6px solid #90aee2;
+    border-radius: 8px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+    background-color: wheat;
+    border-radius: 26px;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 6px;
+
+}
+
+#html {
+    color: rgb(122, 12, 224);
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+#JavaScript {
+    color: #FF00FF;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+#css {
+    color: #800080;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.like {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+
+
+}
+
+.right img {
+    width: 32px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.right img:hover {
+    border: 1px solid lightseagreen;
+}
+
+.right {
+    padding: 0 6px;
+}
+
+/* here start all about about me*/
+
+
+
+.first {
+    background-color: purple;
+    width: 100%;
+    max-height: max-content;
+    margin: auto;
+    border-radius: 9px;
+}
+
+center {
+    padding: 2% 0;
+    font-family: 700;
+    color: lightgreen;
+
+}
+
+.first ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+
+}
+
+#m {
+    margin-right: 8%;
+}
+
+#m1 {
+    margin-right: 8%;
+}
+
+#m2 {
+    margin-right: 8%;
+
+}
+
+#m2 a {
+    text-decoration: none;
+
+}
+
+#m2 button {
+    color: white;
+    margin: 6px 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: tomato;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid #90aee2;
+    cursor: pointer;
+
+}
+
+#m2 button:hover {
+    cursor: pointer;
+    background-color: rgb(236, 50, 17);
+}
+
+#m2 h4 {
+    font-weight: 800;
+    margin-left: 5%;
+    color: black;
+    font-size: 1.6rem;
+
+}
+
+.flex {
+    background-color: white;
+    width: 100%;
+    max-height: max-content;
+    margin: auto;
+    border-radius: 9px;
+    border: 1px solid #90aee2;
+
+}
+
+.flex h4 {
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.flex h2 {
+    font-weight: 800;
+    color: black;
+}
+
+.flex h3 {
+    font-weight: 800;
+    color: black;
+}
+
+.flex button {
+    color: white;
+    margin: 6px 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: tomato;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #90aee2;
+    cursor: pointer;
+}
+
+.flex button:hover {
+    cursor: pointer;
+    background-color: rgb(236, 50, 17);
+}
+
+.flex a {
+    text-decoration: none;
+}
+
+.connect {
+    background-color: black;
+    width: 100%;
+    max-height: max-content;
+    margin: auto;
+
+}
+
+
+
+/*here start cvontact me method*/
+.contact {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    background-color: rgba(8, 8, 8, 0.075);
+    box-shadow: rgba(54, 53, 53, 0.2) 0px 2px 8px 0px;
+}
+
+.contact .abhi {
+    width: 6%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.contact img {
+    width: 32px;
+    border-radius: 32px;
+    border: 1px solid #90aee2;
+    cursor: pointer;
+    margin: 2px 6px;
+
+}
+
+.contact h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.someimage {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.someimage img {
+    height: 460px;
+}
+
+.detail {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.detail h2 {
+    color: black;
+    font-weight: 800;
+}
+
+.detail h4 {
+    color: black;
+    font-weight: 700;
+}
+
+.detail h6 {
+    color: black;
+    font-weight: 760;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+/* here start all about project method */
+.project {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 2px;
+    background-image: url('background_16_WabjYvZ.wide.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item1 {
+    margin: 66px 0;
+}
+
+.item1 h1 {
+    color: #f6f5f3;
+    font-weight: 900;
+}
+
+.item1 .hints {
+    color: #00FFFF;
+    font-weight: 800;
+}
+
+.item1 .projectno1 {
+    color: #A2FF86;
+    font-weight: 800;
+}
+
+.projectno2 {
+    color: #ccff00;
+    font-weight: 800;
+}
+
+.projectno3 {
+    color: #00ff00;
+    font-weight: 800;
+}
+
+.btnproject a {
+    border: none;
+    text-decoration: none;
+}
+
+.btnproject a button {
+    background-color: black;
+    color: #f6f5f3;
+    ;
+    padding: 6px 12px;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid lightblue;
+    border-radius: 26px;
+}
+
+.btnproject a button:hover {
+    background-color: #f6f5f3;
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.projectimges {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 1px 0;
+}
+
+.projectimges img {
+    height: 400px;
+}
+
+
+/* here start all about services */
+
